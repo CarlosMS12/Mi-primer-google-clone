@@ -5,6 +5,7 @@
 }
 html {
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;;
 }
 
 .nav {
@@ -12,6 +13,7 @@ html {
     font-size: 1.6rem;
     justify-content: end;
     align-items: center;
+    
 }
 
 li {
@@ -22,6 +24,7 @@ li {
 }
 li a {
     text-decoration: none;
+    color: black;
 }
 .image-container {
     width: 2vw;
@@ -33,7 +36,7 @@ li a {
     width: 25vw;
 }
 .figure-logo {
-    margin-top: 12rem;
+    margin-top: 10rem;
 }
 .buscador {
     width: 55rem;
@@ -51,6 +54,7 @@ li a {
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+
 }
 .botones {
     
@@ -65,7 +69,7 @@ li a {
     margin-right: 10px;
 }
 .a-buscar {
-    color: #909094;
+    color: #646464;
 }
 .ola {
     display: flex;
@@ -78,9 +82,32 @@ li a {
     border: none;
     position: absolute;
     right: 44rem;
-    bottom: 30.5rem;
+    bottom: 31.2rem;
 }
 .vozi {
     height: 25px;
     width: 20px;
+}
+header {
+    height: 10vh;
+}
+main {
+    height: 80vh;
+}
+footer {
+    height: 10vh;
+    background-color: #eeedf0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-footer {
+    display: flex;
+    flex-direction: row;
+    height: -webkit-fill-available;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+.footer-color {
+    color: #838383;
+    font-size: 1.3rem;
 }

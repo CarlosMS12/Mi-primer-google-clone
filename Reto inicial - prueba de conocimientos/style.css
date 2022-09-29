@@ -28,9 +28,11 @@ li a {
 }
 .image-container {
     width: 2vw;
+    cursor: pointer;
 }
 .perfil-container {
     width: 3vw;
+    cursor: pointer;
 }
 .logo-google {
     width: 25vw;
@@ -39,7 +41,7 @@ li a {
     margin-top: 10rem;
 }
 .buscador {
-    width: 55rem;
+    width: 40vw;
     height: 5rem;
     border-radius: 5rem;
     border: 0.2rem solid rgb(196, 193, 193);
@@ -81,8 +83,8 @@ li a {
     cursor: pointer;
     border: none;
     position: absolute;
-    right: 44rem;
-    bottom: 31.2rem;
+    right: 31.5%;
+    bottom: 43.3%;
 }
 .vozi {
     height: 25px;
@@ -110,4 +112,5 @@ footer {
 .footer-color {
     color: #838383;
     font-size: 1.3rem;
+    font-weight: normal;
 }
